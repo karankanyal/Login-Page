@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .left-section {
+    width: 50%;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  .left-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #e9f0fa;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .login-box a {
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+
+  }
+  
+  .login-box button:hover {
+    background-color: rgb(128,21,167)}
+  
+  
+  .left-section p {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .right-section {
+    width: 50%;
+    background: linear-gradient(to bottom left, rgb(4,169,181), rgb(128,21,167) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
